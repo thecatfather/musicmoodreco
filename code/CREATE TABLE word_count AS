@@ -1,0 +1,10 @@
+CREATE TABLE word_count AS
+SELECT word, count(*) AS count FROM
+(SELECT explode(split(words, '\\W+')) AS word FROM location_table) w
+GROUP BY word;
+
+SELECT MIN(column_name)
+FROM table_name
+WHERE condition;
+
+find the year where there is max and min rainfall. for each reservoir .
