@@ -3,3 +3,4 @@ First, sentiment of the tweet is extracted.
 Based on sentiment and other parameters such as time of day, the user is recommended a song (within a small set of songs)
 
 Model is trained using LSTM and glove vectors are being used. 
+Final code file is named OGFAM.py
